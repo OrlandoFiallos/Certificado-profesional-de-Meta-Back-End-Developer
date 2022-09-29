@@ -1,0 +1,4 @@
+total 2
+-rw-r--r-- 1 Manuel Fiallos 197121 41 Sep 26 10:41 dfile1.txt
+-rw-r--r-- 1 Manuel Fiallos 197121 30 Sep 26 15:10 file2.txt
+-rw-r--r-- 1 Manuel Fiallos 197121  0 Sep 26 15:29 output.txt

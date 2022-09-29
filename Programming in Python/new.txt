@@ -1,0 +1,7 @@
+
+Primera línea
+Segunda línea agregada con writelines
+Primera linea
+Segunda linea agregada con writelines
+Primera linea
+Segunda linea agregada con writelines

@@ -1,0 +1,30 @@
+Como crear una nueva rama
+
+2 formas
+git checkout -B "nombreRama"  #Me lleva desde la rama en la que estoy a la que acabo de crear
+
+git branch "nombreRama"  #Crea la rama, pero no me cambia de la que estoy
+
+Cambiar de rama
+git checkout "nombreRama"
+
+Hacer un push desde otra rama que no sea la principal
+
+git push -u origin "nombreRama"
+
+Solicitar los nuevos datos después de haber hecho merge
+
+cambiar a la rama principal
+git checkout main
+
+traer los nuevos datos 
+git pull
+
+verificar si están los nuevos datos 
+ls -l
+
+Como cambiar el nombre de una rama
+git branch -m "nombreRama" "nuevoNombre"
+
+Eliminar una rama 
+git branch -d "nombreRama"

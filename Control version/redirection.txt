@@ -1,0 +1,29 @@
+Redirection
+-El flujo de trabajo de cualquier comando en Linux es tomar una entrada y dar una salida
+-El dispositivo de entrada estándar es el teclado, de salida la pantalla
+-Con redirection se puede cambiar la salida estándar y/o entrada estándar
+-El signo > nos permite usar redirection para controlar a dónde va la salida, por defecto va a un archivo llamado salida estándar stdout
+-Todo en Linux es un archivo
+
+Hay tres tipos de IO input/output redirections
+-Standard input - teclado     0
+-Standard output - pantalla   1
+-Standard error               2
+
+Ejemplo de como tomar la entrada y almacenarla en un archivo txt con el comando cat
+-Con un archivo existente
+-cat > nombreArchivo
+-presionar enter
+-escribir el contenido del archivo, si el archivo ya contiene texto este se sobreescribe con el nuevo
+-Presionar control+D para indicar que es el fin del archivo
+-para ver el contenido cat < nombreArchivo y se nos desplegará en consola el contenido del archivo
+
+Standard output
+Ejemplo de como enviar la salida de un comando a un archivo txt
+-Utilizando >
+-ls -l > output.txt 
+-Nos enviará la salida del comando ls -l a un archivo llamado output.txt en el momento de escribir el comando el archivo aun no se había creado
+
+Standard error
+Ejemplo de como guardar un error en un archivo txt 
+-ls -l submisions/ 2> error.txt  #importante utilizar el 2 antes del mayor que, sino el error no se guardará en el archivo

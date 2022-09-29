@@ -1,0 +1,24 @@
+Comando cat
+cat <nombre del archivo>
+Retorna en la consola el contenido del archivo 
+
+Comando wc (word count)
+wc <nombre del archivo> -w (la bandera -w retorna el número de palabras)
+
+ejemplo 
+wc dfile1.txt -w
+Salida:
+5 dfile.txt
+
+Pipes |
+Pipes permite pasar la salida de un comando como la entrada de OTRO
+
+ejemplo estando dentro de la carpeta submissions en la cual tenemos 2 archivos
+ls | wc -w
+Salida:
+2  # La salida es 2 porque hay 2 archivos dentro de la carpeta submissions
+
+Ejemplo con el comando cat 
+cat dfile1.txt file2.txt | wc -w   (combinando 2 archivos)
+Salida:
+11  # Obtengo el conteo de palabras en los 2 archivos

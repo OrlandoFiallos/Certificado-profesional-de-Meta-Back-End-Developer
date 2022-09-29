@@ -1,0 +1,8 @@
+Pestañas en las herramientas de desarrollador y su función
+
+-console Genera registros de JS y errores de la aplicación web
+-sources Muestra todo el contenido resuelto para la página actual, incluye html,css,js,imágenes y videos
+-network Inspecciona la línea de tiempo y detalles de solicitudes y respuestas http para la página web
+-performance Muestra lo que está haciendo el navegador web a lo largo del tiempo , es útil si la aplicación se está ejecutando lentamente porque puede identificar las funciones que están tomando más tiempo
+-memory Muestra las partes del código que consumen más recursos
+-elements (Pestaña más utilizada) se usa para inspeccionar documentos y elementos html y sus propiedades

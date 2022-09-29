@@ -1,0 +1,36 @@
+Sistemas de control de versiones y herramientas
+
+Los sistemas de control de versiones pueden dividirse en 2 categorías
+-Sistemas de control de versiones centralizado
+-Sistemas de control de versiones distribuidos
+
+Centralizados o CVCS
+-Contienen un servidor y un cliente
+-El servidor contiene el repositorio principal que alberga el historial completo de versiones del código base
+-Los desarrolladores necesitan bajar el código del servidor a su máquina local, dándole al usuario una copia propia del código base
+-El servidor contiene el historial completo de los cambios
+-El servidor es la copia central del proyecto
+-Después de hacer cambios el desarrollador necesita impulsar los cambios al servidor central para que otros desarrolladores puedan verlos
+
+Ventajas
+-Es considerablemente más fácil de aprender que los distribuidos
+-Dan más controles de acceso a los usuarios
+
+Desventajas
+-Pueden ser más lentos dado que necesita establecer una conexión con el servidor para realizar cualquier acción.
+
+
+
+Distribuidos o DVCS 
+-Se necesita bajar el código desde el servidor para ver los últimos cambios
+-Diferencia clave, cada uno de los usuarios es un SERVIDOR Y NO UN cliente
+
+Ventajas
+-No necesita estar conectado a el servidor para agregar cambios o ver el historial de un archivo, funciona como si estuviese conectado directamente al servidor pero en su propia máquina local
+-Sólo necesita conectarse al servidor para extraer los últimos cambios o para pushear sus propios cambios
+-Permite a los usuarios trabajar en un estado fuera de línea
+-La velocidad y el rendimiento son mejor que CVCS
+
+
+Desventajas
+-Son más difíciles de aprender

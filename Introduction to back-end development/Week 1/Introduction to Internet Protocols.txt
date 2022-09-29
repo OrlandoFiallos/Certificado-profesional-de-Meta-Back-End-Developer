@@ -1,0 +1,14 @@
+Una computadora en una red se le asigna una dirección IP
+-En IPV4 una dirección IP contiene 4 octetos, ejemplo 192.0.2.235.
+-En IPV6 una dirección IP contiene 8 grupos de dígitos hexadecimales separados por dos puntos, ejemplo 4527:0a00:1567:0200:ff00:0042:8329
+
+Problemas que pueden tener los paquetes IP:
+-Pueden llegar desordenados
+-Dañarse o corromperse
+-Perderse durante el viaje
+
+Para solucionar estos problemas hay dos protocolos que son utilizados comunmente
+-TCP : Resuelve los problemas mencionados anteriormente, pero con un pequeño retraso en el envío de datos.
+-UDP : Resuelve el problema de paquetes corruptos, pero los paquetes aún pueden llegar desordenados o no llegar en lo absoluto, este protocolo generalmente se utiliza
+       para enviar datos que pueden tolerar una cierta pérdida de datos como llamadas de voz o transmisión de video en vivo.
+

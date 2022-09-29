@@ -1,0 +1,50 @@
+Introducción a HTTP
+-El ícono de candado al lado izquierdo de la URL significa que se está usando la versión segura de HTTP o sea HTTPS
+-HTTP es un protocolo que permite la comunicación entre un navegador web y el servidor web donde se alojan los sitios web
+-HTTP funciona de la siguiente manera, un navegador web o cliente envía una solicitud HTTP a un servidor y el servidor envía la respuesta HTTP de vuelta al navegador.
+-HTTP es un protocolo basado en la respuesta a solicitudes.
+
+Composición de una solicitud HTTP
+ver imagen https://i.blogs.es/3e82f1/peticion/450_1000.jpg
+-Una solicitud HTTP consta de
+ *Método  method
+ *Ruta path
+ *Versión version
+ *Encabezados headers
+
+Métodos HTTP
+-Un método HTTP describe el tipo de acción que el cliente va a realizar
+-Métodos HTTP primarios o más utilizados
+ *GET  Se utiliza para recuperar o solicitar información al servidor dado
+ *POST Se utiliza para enviar datos al servidor
+ *PUT  Se utiliza para actualizar todo lo que actualmente existe en el sitio web con algo más
+ *DELETE Se utiliza para eliminar cualquier recurso
+
+Path o Ruta
+-Es la representación donde se almacena el recurso en el servidor web
+
+Versión o version
+-Es la versión del protocolo, las versiones más utilizadas son 1.1 y 2.0
+
+Encabezados o headers
+-Contienen información adicional sobre la solicitud y el cliente que realiza la solicitud.
+
+Respuestas HTTP
+ver imagen https://www.jorgedelacruz.es/wp-content/uploads/2020/02/grafana-http-response-002.png
+-Siguen un formato similar al formato de solicitud, después del encabezado la respuesta contendrá opcionalmente un cuerpo de mensaje que consta del contenido de la respuesta, como el documento HTML,el archivo de imagen y así sucesivamente
+
+Códigos de estado HTTP
+-Indican si las solicitudes HTTP se completaron con éxito
+-El rango de los códigos va desde 100 hasta 599
+
+Agrupación de los códigos de estado y su significado
+-Se agrupan en 5 clases 
+1.Respuestas informativas (100–199),
+2.Respuestas satisfactorias (200–299),
+3.Redirecciones (300–399),
+4.Errores de los clientes (400–499),
+5.y errores de los servidores (500–599).
+
+HTTPS
+-Es la versión segura de HTTP
+-Se utiliza se utiliza para la comunicación segura entre dos ordenadores para que nadie más pueda ver la información que se envía y se recibe. Lo hace mediante el uso de cifrado

@@ -1,0 +1,11 @@
+API (aplicattion programming interface)
+
+-Una API es un conjunto de funciones y procedimientos para crear aplicaciones que acceden a las características o datos de un sistema operativo, aplicación u otro servicio.
+-Las API suelen ser el puente entre diferentes componentes o sistemas
+-A las API también se les conoce como gateway o middleware
+-Un tipo importante de API para desarrollo web son las RESTful o REST API, este tipo de API proporciona datos para aplicaciones web y móviles populares, estos también son llamadaos servidores web
+
+REST (representational state transfer)
+-Es un conjunto de principios que ayudan a construir API altamente eficientes
+-Una de las principales responsabilidades de este tipo de API es enviar y recibir datos hacia y desde una base de datos centralizada
+-Estas API utilizan endpoints para especificar cómo se puede acceder a los diferentes recursos
