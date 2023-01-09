@@ -1,0 +1,10 @@
+Security and authentication in REST API
+
+1. SSL (Secure Socket Layer) Cuando configura los certificados SSL correctamente, sus API pueden serservido a través de HTTPS.
+
+2. URLs firmadas signed URLs Las URL firmadas otorgan a una aplicación cliente acceso limitado a un recurso específico paraun breve periodo de tiempo. Con una URL firmada, cada vez que se llama a una API,un fragmento de texto en particular llamado firma se incluye con la URL.El código del lado del servidor puede verificar la firma yasegúrese de que la llamada provenga de una fuente auténtica. Pero, ¿cómo crean los desarrolladores estas firmas?HMAC es un mecanismo de firma popular utilizado por las aplicaciones modernas.Es fácil de usar y asegura la autenticidad e integridad del mensaje.
+
+3. Autenticación, estamos acostumbrados a la autenticación por nombre de usuario y contraseña pero esta no es segura, por eso se utiliza la autenticación por token Con la autenticación basada en token, el usuario envía su nombre de usuario ycontraseña a la URL de inicio de sesión y luego recibe un token único en forma de texto.Después de eso, cada llamada a la API incluirá este token como encabezado HTTP.El código del lado del servidor puede verificar el token, extraer la información oculta en él yemparejarlo con un usuario existente.
+
+4. La última es la política de uso compartido de recursos de origen cruzado o CORS cross origin resource sharing y los cortafuegos firewalls
+Cuando diseña un A PI, puede aceptar llamadas desde cualquier lugar o configurandolos encabezados de núcleos, solo puede aceptar llamadas de algunos dominios específicos.Y por último, otra medida de seguridad que puedes utilizar son los cortafuegos.Si desea asegurarse de que solo direcciones IP específicas puedan acceder a su A PI,puede usar una aplicación de firewall en su servidor.

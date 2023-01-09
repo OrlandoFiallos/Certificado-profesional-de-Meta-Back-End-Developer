@@ -1,0 +1,37 @@
+Datos Estructurados
+-Son modelos de datos predefinidos, generalmente solo texto
+-Fáciles de buscar  y analizar
+
+Datos Semi Estructurados
+-Son información que no reside en una BD relacional
+-Tiene algunas propiedades organizativas para facilitar su análisis, como las etiquetas semánticas
+-Un ejemplo de datos semiestructurados es el código HTML, que no restringe la cantidad de información que desea recopilar en un documento, pero impone la jerarquía a través de elementos semánticos
+
+Datos no Estructurados
+-No son modelos de datos predefinidos, pueden ser:
+-Texto 
+-Imágenes
+-Sonido
+-Video
+-Otros formatos
+-Su búsqueda y análisis es más difícil
+
+Las BD relacionales tienen limitaciones al almacenar datos porque en su mayoría almacenan datos estructurados
+
+Base de datos SQL
+-Base de datos relacional escrita en SQL
+-Es aquella que dispone de una relación predefinida entre sus elementos, donde cada registro puede ser identificado de forma inequívoca
+
+
+Base de dato NoSQL
+-Base de datos no relacional que no cuenta con un identificador que relacione un conjunto de datos con otros
+-La organización es organizada generalmente como documentos
+-No requiere que los datos estén estructurados para poder manipularlos
+-Redes sociales, internet de las cosas utilizan bd no SQL
+
+NoSQL BD ejemplos
+-Document databases
+-Key-value databases
+-Graph databases
+
+Big Data combina los 3 tipos de datos

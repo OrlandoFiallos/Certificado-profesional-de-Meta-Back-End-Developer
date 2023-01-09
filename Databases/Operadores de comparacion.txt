@@ -1,0 +1,11 @@
+Operadores de comparación
+
+-Se usan para formar condiciones para filtrar datos, se utilizan con WHERE 
+
+Operadores
+-igual  =
+-distinto <> o !=
+-mayor que >
+-menor que <
+-mayor o igual que >= 
+-menor o igual que <=

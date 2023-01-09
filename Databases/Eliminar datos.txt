@@ -1,0 +1,9 @@
+DELETE FROM
+Eliminar datos de una tabla
+
+DELETE FROM nombreTabla
+WHERE condición
+-Si no se especifica la condición WHERE se eliminarán todos los registros de la tabla 
+
+DELETE FROM curso
+    -> WHERE codigo = 7;

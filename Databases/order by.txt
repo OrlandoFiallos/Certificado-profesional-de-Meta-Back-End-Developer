@@ -1,0 +1,19 @@
+Order by
+-Útil cuando se desea ordenar los resultados obtenidos al ejecutar una consulta SQL SELECT 
+-Los datos en una bd se vuelven más significativos cuando se ordenan o clasifican en un orden específico.
+
+-Si la columna contiene datos numéricos estos se ordenaran de manera ascendente o descendente
+-Si la columna contiene datos alfabéticos estos se ordenarán alfabéticamente de manera ascendente o descendente
+
+SELECT columna  
+FROM tabla
+ORDER BY nombreColumna;
+
+Palabras clave ASC y DESC 
+-ASC ordena los datos de manera ascendente
+-DESC ordena los datos de manera descendente
+*Si no se específica ninguno de los 2, los datos se ordenarán de manera ascendente
+
+SELECT columna  
+FROM tabla
+ORDER BY nombreColumna ASC | DESC;

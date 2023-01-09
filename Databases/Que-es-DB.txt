@@ -1,0 +1,10 @@
+Dato
+-Es la información concreta sobre hechos, elementos, que permite estudiarlos, analizarlos
+
+Base de datos
+-Es una forma de almacenamiento electrónico en que los datos se organizan sistemáticamente
+-Una DB almacena y manipula los datos electrónicamente, para hacerlos más manejable, eficiente y seguros
+-Sistemático en BD significa que todos los datos contienen elementos o características y atributos por los que pueden ser identificados
+-Entidad se refiere a las tablas de una BD
+-Atributos se refiere a las columnas de la tabla
+-Cada fila de la tabla representa una instancia de esa entidad

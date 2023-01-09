@@ -1,0 +1,10 @@
+Organización de un proyecto API
+
+-Primero, es necesario dividir una aplicación grandeen varias aplicaciones paraasegúrese de que todos sus objetivos se cumplan, Pero crear múltiples aplicaciones también significa quehay algunas otras cosas quetienes que prestar atención:
+*No utilizar el entorno global para las dependencias del proyecto, utilizar siempre un entorno virtual
+*cuando actualice una API,puede romper la aplicación existente porque el resultado dela nueva API podría no ser la misma que la anterior. Para tales actualizaciones, siempre debe usarcontrol de versiones y mantener la antigua API en funcionamientointacto y lanzar la versión actualizadapara que los desarrolladores dela aplicación del cliente tiene suficiente tiempo para actualizarsus aplicaciones para que funcionen correctamente con las nuevas API, para la versión más nueva siempre hay que crear una aplicación separada
+
+-Guardar siempre los paquetes y su número de versión en un archivo requirements.txt, para asegurar que la aplicación no se rompa cuando vaya a producción
+-Tener carpetas de recursos separadas para cada una de las apicaciones 
+-Mantener los archivos estáticos específicos de la aplicacióndentro de la propia aplicación,al igual que sus plantillas
+-Dividir la configuración en múltiples archivos de configuración

@@ -1,0 +1,18 @@
+Schema o esquema de base de datos 
+-Organización o agrupación de información y las relaciones entre ellos
+-En contexto MySQL significa una colección de estructuras de datos, un diseño abastracto de cómo los datos se almacenan en una base de datos
+-Un esquema es cómo se organizan los datos en la base de datos y cómo se relacionan con otros datos
+
+Ventajas de un esquema de bd
+-Los esquemas proporcionan agrupaciones lógicas para los objetos de la base de datos
+-También facilitan el acceso y la manipulación
+-Proporcionan una mayor seguridad de la base de datos.
+- es posible transferir la propiedad deesquemas y sus objetosentre usuarios y otros esquemas
+
+El esquema de la base de datos se puede dividir ampliamente en tres categorías. 
+
+1.Esquema conceptual o lógico que define entidades, atributos y relaciones. 
+
+2.Esquema interno o físico que define cómo se almacenan los datos en un almacenamiento secundario. En otras palabras, el almacenamiento real de datos y rutas de acceso. 
+
+3.Esquema externo o de vista que define diferentes vistas de usuario

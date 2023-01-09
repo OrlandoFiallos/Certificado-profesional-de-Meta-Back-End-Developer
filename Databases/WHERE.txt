@@ -1,0 +1,3 @@
+Cláusula WHERE
+-Útil para filtrar datos en una tabla en función de una condición 
+-Se puede usar en sentencias SELECT, UPDATE, DELETE.

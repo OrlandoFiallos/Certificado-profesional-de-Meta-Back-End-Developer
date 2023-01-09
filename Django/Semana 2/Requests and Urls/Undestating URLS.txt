@@ -1,0 +1,20 @@
+URL
+-Es una dirección que vincula o apunta a un recurso específico a página web.
+-uniform resource locator
+
+PARTES DE UNA URL 
+-SCHEMA O ESQUEMA
+*Se encuentra al principio de cualquier URL y se puede identificar como HTTP O HTTPS, protocolo de transferencia de hipertexto. La diferencia entre HTTP y HTTPS es la seguridad, ya que S significa seguro. HTTP envía datos como texto plano sin formato que puede exponerla información del remitente mientras que HTTPS encripta todos los datos por lo cual es más seguro.
+
+-SUB DOMAIN AND DOMAIN SUBDOMINIO Y DOMINIO
+
+*SUBDOMINIO se encuentra antes del dominio y normalmente contiene la página de inicio y otras páginas importantes. El subdominio más común es world wide web o WWW (algunos navegadores reemplazan el esquema y el subdominio por un símbolo de candado para páginas encriptadas, se hace para que las url sean más fáciles de leer y comprender)
+
+*DOMINIO El dominio consta de 2 partes dominio de segundo nivel y dominio de nivel superior
++Dominio de segundo nivel: Se refiere a una organización o el nombre de la empresa.
++Dominio de nivel superior: Se utiliza para hacer referencia a un país o categoría de su organización Por ejemplo, una dirección .com puede indicar una entidad comercial 
+ .org significa una organización y .ie, .hn, .mx, us etc representa a un país,Estado soberano o territorio dependiente.
+
+-FILE PATH RUTA DEL ARCHIVO : Nos dirige a la ubicación de un recurso. El recurso puede ser cualquier tipo de archivos que se puedan transmitir a través de HTTP,
+
+-URL PARAMETERS O QUERY STRINGS PARAMETROS DE URL: se utilizan para estructurar información adicional dentro de una URL.Utiliza parámetros de URL para capturar cualquier parte de la URL y pasar su valor para procesar Una cadena de consulta es similar.Comienza con un signo de interrogación y se coloca después de la ruta de URL. 

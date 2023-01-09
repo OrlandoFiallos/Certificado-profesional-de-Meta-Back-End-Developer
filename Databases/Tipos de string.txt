@@ -1,0 +1,10 @@
+Tipos de cadenas más utilizados
+-CHAR significa caracter, se utiliza para almacenar caracteres de una longitud fija
+-VARCHAR significa caracter variable, se utiliza para almacenar caracteres de una longitud variable
+-Usamos varchar cuando no estamos seguros de la longitud de los caracteres que se van a insertar en la columna
+
+Otros tipos de cadenas
+-TINYTEXT para columnas de menos de 255 caracteres
+-TEXT para columnas de menos de 65000 caracteres
+-MEDIUMTEXT para columnas de menos de 16.7 millones de caracteres, por ejemplo un libro
+-LONGTEXT hasta 4 gigabytes de datos de texto

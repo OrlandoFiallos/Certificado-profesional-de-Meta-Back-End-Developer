@@ -1,0 +1,12 @@
+https://www.javatpoint.com/dbms-sql-introduction
+https://beginnersbook.com/2018/11/introduction-to-sql/
+https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5
+https://www.ibm.com/docs/en/control-desk/7.6.0?topic=design-relational-database-structure
+https://dev.mysql.com/doc/refman/8.0/en/numeric-types.htmls
+https://www.tutorialspoint.com/sql/index.html Tutoriales
+https://www.javatpoint.com/sql-tutorial
+https://www.tutorialrepublic.com/sql-tutorial/sql-create-database-statement.php
+
+https://opentextbc.ca/dbdesign01/chapter/chapter-12-normalization/
+https://www.databasestar.com/database-normalization/
+https://www.bbc.co.uk/bitesize/guides/zc93tv4/revision/2

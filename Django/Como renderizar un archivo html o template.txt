@@ -1,0 +1,22 @@
+Cómo renderizar un archivo html o template
+
+FORMA 1 CON LA FUNCION RENDER
+
+1.Crear una carpeta llamada templates en el directorio de la aplicación a la que le queramos agregar la vista
+2.Crear el archivo html que vamos a renderizar en la carpeta templates 
+3.Importar función render en el archivo views.py  from django.shortcuts import render
+4.Retornar la función render con dos argumentos, request y el archivo html que queremos renderizar  
+
+def index(request):
+    return render(render,'index.html')
+
+
+FORMA 2 CON LA FUNCION LOADER
+1.Crear una carpeta llamada templates en el directorio de la aplicación a la que le queramos agregar la vista
+2.Crear el archivo html que vamos a renderizar en la carpeta templates 
+3.Importar función loader en el archivo views.py  from django.template import loader
+4.Implementar de la siguiente manera
+def hello (request):
+    template = loader.get_template('myfirst.html')
+    return HttpResponse(template.render())
+   

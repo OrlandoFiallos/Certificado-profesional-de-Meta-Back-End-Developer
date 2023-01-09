@@ -1,0 +1,14 @@
+DISTINCT
+-SELECT DISTINCT Se utiliza para retornar sólo valores distintos
+-Se usa con la declaración SELECT, por lo que comúnmente se conoce como SELECT DISTINCT.
+-La cláusula DISTINCT no ignora los valores NULL en las columnas DISTINCT. DISTINCT considera los valores NULL como valores únicos. 
+
+SELECT DISTINCT column1
+FROM table_name;
+
+SELECT DISTINCT en múltiples columnas
+-Cuando se proporciona más de una columna o expresión en la cláusula DISTINCT, la consulta recuperará combinaciones únicas para esas columnas. 
+SELECT DISTINCT column1, column2
+FROM table_name;
+
+-DISTINCT también se puede usar con funciones agregadas de SQL como COUNT, AVG, MAX, etc. 

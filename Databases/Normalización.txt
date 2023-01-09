@@ -1,0 +1,29 @@
+Normalización
+-El proceso de normalización tiene como objetivo minimizar las duplicaciones de datos, 
+evitar errores durante las modificaciones de datos y simplificar las consultas de datos desde la base de datos
+
+Tres formas fundamentales de normalización
+-Primera forma normal (1NF)  
+-Segunda forma normal (2NF)   
+-Tercera Forma Normal (3NF)
+
+Primera forma normal 1NF 
+-La atomicidad de los datos significa que solo debe haberun único valor de instancia de el atributo de columna en cualquier campo de la tabla
+-Las tablas deben contener un solo valor por campo
+-Elimine los grupos repetidos de las tablas individuales.
+-Cree una tabla independiente para cada conjunto de datos relacionados.
+-Identifique cada conjunto de datos relacionados con una clave principal. identificar cada entidad 
+
+Segunda forma normal 2NF
+-Dependencia funcional Se refiere a la relación entre dos atributos en una tabla, los valores de una columna clave primaria determinan la información de las otras columnas
+-Dependencia parcial Se refiere a tablas con una clave primaria compuesta, una columna que no es clave primaria solo depende de una de las claves que forman la clave compuesta 
+-Cree tablas independientes para conjuntos de valores que se apliquen a varios registros.
+-Relacione estas tablas con una clave externa.
+-Los registros no deben depender de nada que no sea una clave principal de una tabla, una clave compuesta si es necesario.
+
+Tercera forma normal 3 NF 
+-Dependencia transitiva Un atributo no clave no puede depender de otro atributo no clave 
+-Elimine los campos que no dependan de la clave.
+
+cumplir la tercera forma normal, aunque en teoría es deseable, no siempre es práctico. Si tiene una tabla Clientes y desea eliminar todas las dependencias posibles entre los campos, debe crear tablas independientes para las ciudades, códigos postales, representantes de venta, clases de clientes y cualquier otro factor que pueda estar duplicado en varios registros. En teoría, la normalización merece el trabajo que supone. Sin embargo, muchas tablas pequeñas pueden degradar el rendimiento o superar la capacidad de memoria o de archivos abiertos.
+Puede ser más factible aplicar la tercera forma normal sólo a los datos que cambian con frecuencia. Si quedan algunos campos dependientes, diseñe la aplicación para que pida al usuario que compruebe todos los campos relacionados cuando cambie alguno.

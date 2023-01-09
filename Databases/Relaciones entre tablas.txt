@@ -1,0 +1,6 @@
+Relaciones entre Tablas
+-Uno a uno 
+un solo registro deuna tabla está asociada conun único registro de otra tabla
+-Uno a muchos
+Un registro está vinculado a varios registros en diferentes filas de otro.
+-Muchos a muchos

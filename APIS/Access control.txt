@@ -1,0 +1,16 @@
+Control de acceso
+-Con el control de acceso podemos especificar qué usuarios pueden acceder a nuestra API y qué datos pueden ver
+
+Roles y Privilegios
+-Rol: Conjunto de privilegios 
+-Privilegio: Significa si se permite hacer una tarea en particular
+
+Ejemplo de roles y privilegios
+
+-Los clientes pueden navegar por los elementos del menú, agregar elementos del menú al carrito,realizar pedidos, agregar reseñas de alimentos y buscar sus propios pedidos.
+-Por otro lado, alguien con un rol de gerente podrá hacer lo siguiente,agregue elementos de menú, edite elementos de menú, elimine elementos de menú y explore todos los pedidos.Los gerentes también pueden examinar los datos de los clientes,asigne pedidos al equipo de entrega y explore los datos de transacciones
+-Y el equipo de entrega solo podrá realizar las siguientes tareas, navegarpedidos que se les asignan y actualizar el estado de un pedido asignado.
+
+Autenticación: La autenticación es el proceso de verificar las credenciales de un usuario.Lo ingresa al sistema
+Autorización: Permite o impide hacer algo después de la autenticación 
+

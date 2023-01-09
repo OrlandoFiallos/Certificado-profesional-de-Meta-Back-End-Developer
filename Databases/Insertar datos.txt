@@ -1,0 +1,5 @@
+Para insertar datos en una bd hay que hacer uso de INSERT INTO VALUES
+
+-INSERT INTO <nombreTabla> (columnas) VALUES (valores a insertar)
+-También se puede utilizar sin especificar las columnas 
+-INSERT INTO table_name VALUES (value1, value2, value3, ...);

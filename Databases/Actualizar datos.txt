@@ -1,0 +1,13 @@
+Para actualizar datos de una bd usamos UPDATE SET 
+
+UPDATE nombreTabla
+SET columna = nuevoValor
+WHERE condición
+
+UPDATE curso
+    -> SET nombre = 'Javascript Avanzado',creditos = 8
+    -> WHERE codigo = 5;
+
+UPDATE curso
+    -> SET nombre = 'Redes y Telecomunicaciones'
+    -> WHERE codigo = 4;

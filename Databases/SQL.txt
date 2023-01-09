@@ -1,0 +1,11 @@
+SQL (estructured query language)
+-Lenguaje de consultas estructurados
+-Es el lenguaje estándar que puede utilizarse con todas las bd, útil  cuando se trabaja con bd relacionales que requieren un lenguaje que pueda interactuar con datos estructurados
+-Una bd interpreta y da sentido a las instrucciones SQL con un sistema de gestión de bd o DBMS(database management system)
+
+Ventajas de SQL
+-Requiere pocas habilidades de codificación, es sólo un conjunto de palabras clave
+-No se requieren muchas líneas de código para realizar operaciones CRUD básicas
+-Permite escribir consultas complejas en corto tiempo
+-Hay mucha información disponible
+-Puede ejecutarse en cualquier computadora una vez que se haya instalado el software de bd

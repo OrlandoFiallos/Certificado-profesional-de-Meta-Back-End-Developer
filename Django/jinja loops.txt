@@ -1,0 +1,7 @@
+Jinja Loops
+
+<h1>Projects</h1>
+    {% for i in projects %}
+    <h1>{{i.id}}</h1>
+    <p>{{i.name}}</p>
+    {% endfor %}

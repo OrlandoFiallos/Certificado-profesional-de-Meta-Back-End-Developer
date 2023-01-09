@@ -1,0 +1,7 @@
+Crear un entorno virtual para aplicaciones en Django
+
+-Primero se debe instalar virtualenv (si no lo tenemos) comando - pip install virtualenv
+-En la carpeta del proyecto ejecutar - virtualenv venv   venv es el nombre de la carpeta 
+-Este comando crea una carpeta llamada venv con varios archivos dentro de ella
+-Activar el entorno virtual, windows - .\venv\Scripts\activate
+-Instalar Django - pip install django

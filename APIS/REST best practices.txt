@@ -1,0 +1,11 @@
+Mejores prácticas de REST 
+
+1. KISS keep it simple stupid, no debemos intentar realizar demasiadas tareas con una API, una sola API debe hacer un trabajo específico y hacerlo bien
+
+2. Proporcionar una manera para filtrar grandes conjuntos de resultados y reorganizarlos en orden ascendente o descendente, por ejemplo utilizando la paginación se pueden entregar resultados en partes más pequeñas
+
+3. Control de versiones, En general, solo debe admitir dos versiones de cualquier recurso dado,porque mantener varias versiones puede ser complejo, propenso a errores y costoso
+
+4. Almacenamiento en caché, porque reduce la carga en las llamadas API relacionadas con la base de datos, esto minimiza la cantidad de llamadas que nuestro cliente hace a nuestra API 
+
+5. Limitación y control de la velocidad, esto limita la cantidad de veces que alguien puede llamar a nuestra API en un período de tiempo. ¿Qué pasa con el monitoreo?Debe monitorear la latencia para asegurarse de que sus clientes obtengan el mejor tiempo posible de respuesta.

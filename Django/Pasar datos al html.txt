@@ -1,0 +1,12 @@
+Pasar datos desde el backend a la vista html 
+
+Para este ejemplo se envian datos manualmente, pero los datos se consultan desde la base de datos 
+
+1.Pasar a la función render un diccionario como 3 argumento, el cual contenga el valor a mostrar 
+2.En el html colocar entre doble llave {{}} la clave del diccionario
+
+def parrafo(request):
+    title = "Welcomen to the Jungle!!!!!!!!"
+    return render(request,'parrafo.html',{'titulo':title})
+
+<h1>{{titulo}}</h1>

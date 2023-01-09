@@ -1,0 +1,3 @@
+Sanitización de Datos, Desinfección de datos 
+
+-La desinfección es el proceso de limpieza de datos de posibles amenazas. Sin una desinfección adecuada, su proyecto API puede explotarse mediante ataques comunes como inyección de SQL. Además, las aplicaciones de los clientes pueden sufrir ataques como secuencias de comandos entre sitios o secuestros de sesiones mediante la inyección de JavaScript.

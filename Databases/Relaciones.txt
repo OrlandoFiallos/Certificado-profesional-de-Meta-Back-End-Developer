@@ -1,0 +1,8 @@
+Los datos en una BD no pueden existir de manera aislada, deben tener relación con otros datos, para poder obtener información significativa
+
+Llave primaria o clave principal
+-Contiene valores únicos que no pueden replicarse en otra parte de la tabla
+
+LLave foranea o clave externa
+-Es un campo en una tabla que se conecta al campo de llave primaria en la tabla original
+-Nos sirve para crear relaciones entre tablas 

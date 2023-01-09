@@ -1,0 +1,22 @@
+Filtering and searching
+
+-Ordenar los elementos por ciertas categorías (no traerlos todos a la vez)
+-Ordenar los elementos por un rango de precio
+-Buscar elementos que contengan palabras específicas
+
+El filtrado es un proceso que permite a las aplicaciones cliente obtener un subconjunto de los resultados de su API en función de algunos criterios.
+
+-Hay dos opciones cuando una aplicación cliente(Front-end) quiere un subconjunto de datos 
+1.No hacer nada y enviarle todos los datos, la aplicación cliente procesará estos datos y los filtrará
+-Ventajas
+*Desarrollo más rápido de la API 
+*Es factible cuando no hay muchos registros
+-Desventajas
+*Hay que traer todos los registros de la bd cada vez
+*Cuando hay cientos, miles o incluso millones de registros no es sostenible, habría mucha carga en el servidor
+2.Procesar las condiciones en el servidor y entregar resultados que coincidan con esos criterios
+-Ventajas 
+*Hay menos carga en el servidor 
+*Reduce el tiempo de desarrollo de las aplicaciones cliente porque todo el filtrado se hace del lado del servidor
+-Desventajas
+*Tomará tiempo extra o más tiempo en desarrollar la API

@@ -1,0 +1,4 @@
+Serializadores
+-Los serializadores son la característica más popular en DRF.Son esenciales para convertir objetos y modelos en un formato más legible como JSON o XML.
+-También pueden analizar los datos JSON y asignarlos a un modelo existente (Deserialización)
+-Los serializadores también pueden validar datos durante este proceso de deserialización,asegurando que sus datos sean limpios y consistentes

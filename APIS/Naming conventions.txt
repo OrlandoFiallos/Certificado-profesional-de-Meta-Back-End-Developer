@@ -1,0 +1,17 @@
+Convenciones de nombres de los endpoints
+
+1. Debe estar escrita en letra minuscula y guiones para separar varias palabras ej: https://little.lemon/orders
+2. snake_case
+   TitleCase
+   camelCase
+   NO son óptimos porque hacen que los nombres sean difíciles de leer
+3. Hay una EXCEPCION a la regla anterior en caso de que la api acepte una variable, ej el id del usuario, en ese caso se debe representar en camelCase envuelta entre llaves ej https://little.lemon/orders/{orderId}
+4. Siempre se debe usar un sustantivo para indicar los recursos que se tratan ej books/{bookId} MALO /getBooks, endpoints que utilizan nombres de operaciones CRUD estándar, como crear, leer, actualizar oLa eliminación debe evitarse
+5. /orders/{orderId}?format=json
+6. Otra práctica recomendada es que cuando comparte sus endpoints de API con su equipo o el público,nunca debe agregar una barra inclinada al final del punto final de la API.
+
+*Utilizar lowercase o minúsculas
+*Indicar relaciones jerárquicas con una barra diagonal
+*Evitar las extensiones de nombre de archivo
+*Usar parámetros de consulta para tipos de datos
+*No usar barra inclinada al final 

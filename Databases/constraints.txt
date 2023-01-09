@@ -1,0 +1,10 @@
+Constraints o restricciones
+-Se utilizan para limitar el tipo de datos que se pueden alamacenar en una tabla
+
+-Las restricciones pueden ser:
+ -A nivel de columna
+ -A nivel de tabla
+
+Restricciones más utilizadas
+NOT NULL para evitar campos vacios
+DEFAULT para definir un valor predeterminado

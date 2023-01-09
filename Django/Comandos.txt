@@ -1,0 +1,40 @@
+Crear un nuevo proyecto
+django-admin startproject nombreProyecto . el punto para que no cree otra carpeta
+
+Correr el proyecto
+python manage.py runserver
+python manage.py runserver 9000 # También podemos especificar el puerto 
+
+CREAR UNA NUEVA APLICACION
+python manage.py startapp nombreAplicación
+
+A la path()función se le pasan cuatro argumentos, dos obligatorios: route y view, y dos opcionales: kwargs, y name. En este punto, vale la pena revisar para qué sirven estos argumentos.
+
+HACER MIGRACIONES
+python manage.py makemigrations nombreAplicación(opcional)
+
+EJECUTAR LOS CAMBIOS DE LA MIGRACION EN LA BASE DE DATOS
+python manage.py migrate
+
+MOSTRAR TODAS LAS MIGRACIONES
+py manage.py showmigrations
+
+VOLVER A UNA MIGRACION HECHA ANTERIORMENTE
+py manage.py migrate nombreAplicación 0001 #número de migración 
+py manage.py migrate MyApp 0002_rename_name_person_person_name #podemos agregar la bandera --plan para ver más información
+
+VER LO QUE SE VA A HACER EN UNA MIGRACION 
+python manage.py sqlmigrate nombreAplicación 0001 #número de migración
+
+DJANGO API 
+ACCEDER A DJANGO SHELL
+python manage.py shell 
+
+CREAR UN SUPER USUARIO PARA ACCEDER A DJANGO ADMIN
+py manage.py createsuperuser
+
+ 
+
+
+
+

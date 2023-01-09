@@ -1,0 +1,11 @@
+AÑADIR UNA COLUMNA A UNA TABLA EXISTENTE
+-ALTER TABLE <nombreTabla> ADD (nombreColumna tipoDato extras);
+-ALTER TABLE curso ADD (docente varchar(20) not null);
+
+ELIMINAR UNA COLUMNA A UNA TABLA EXISTENTE
+-ALTER TABLE <nombreTabla> DROP COLUMN nombreColumna;
+-ALTER TABLE curso DROP COLUMN docente;
+
+MODIFICAR UNA COLUMNA A UNA TABLA EXISTENTE
+-ALTER TABLE <nombreTabla> MODIFY nombreColumna tipoDato extras;
+-ALTER TABLE curso MODIFY nombre char(100);

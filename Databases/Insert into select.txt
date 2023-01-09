@@ -1,0 +1,5 @@
+INSERT INTO SELECT FROM
+Insertar datos en una columna, desde una columna de otra tabla
+
+-INSERT INTO <tablaDestino>(columna) SELECT (columna) FROM <tablaOrigen>;
+-INSERT INTO cursos(nombre) SELECT nombre FROM curso;

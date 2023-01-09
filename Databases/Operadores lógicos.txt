@@ -1,0 +1,12 @@
+Operadores Lógicos
+-ALL Se utiliza para comparar un solo valor con todos los valores de otro conjunto de valores.
+-AND Permite la existencia de múltiples condiciones en la cláusula WHERE de una instrucción SQL.
+-ANY Se utiliza para comparar un valor con cualquier valor aplicable en la lista según la condición.
+-BETWEEN Se utiliza para buscar valores que están dentro de un conjunto de valores, dado el valor mínimo y el valor máximo.
+-EXISTS Se utiliza para buscar la presencia de una fila en una tabla específica que cumpla con un determinado criterio.
+-IN Se utiliza para comparar un valor con una lista de valores literales que se han especificado.
+-LIKE Se utiliza para comparar un valor con valores similares mediante operadores comodín
+-NOT Invierte el significado del operador lógico con el que se utiliza. Por ejemplo: NO EXISTE, NO ENTRE, NO EN, etc.  Este es un operador de negación.
+-OR Se utiliza para combinar varias condiciones en la cláusula WHERE de una instrucción SQL.
+-IS NULL Se utiliza para comparar un valor con un valor NULL.
+-UNIQUE Busca cada fila de una tabla específica por su singularidad (sin duplicados).

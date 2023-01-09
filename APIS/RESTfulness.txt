@@ -1,0 +1,20 @@
+API 
+-Es una puerta de entrada a los datos del backend, nos permite acceder y modificar fácilmente estos datos.
+
+REST 
+-Es un estilo arquitectónico para diseñar API, es popular porque es más fácil de desarrollar e implementar que otros estilos arquitectónicos
+
+API RESTful
+-Una api es restful si cumple con ciertas restricciones:
+1. Debe tener una arquitectura cliente-servidor (client-server)
+* Un servidor que sirva los recursos y un cliente que los consuma
+2. Sin estado (stateless)
+*El servidor no contiene el estado del cliente API que está haciendo la llamada, para que no pueda identificar quién está haciendo la solicitud o cuales eran sus datos solicitados previamente sin la información de usuario adecuada
+3. Debe ser almacenada en caché (cacheable)
+*Las respuestas pueden ser guardadas por un navegador web, un servidor o cualquier sistema
+*Este proceso de almacenamiento en caché puede ayudar a reducir la carga del servidor utilizando el resultado de la API desde el caché en lugar de hacer una solicitud real al servidor cada vez.
+4. Estar en capas (Layered)
+*La arquitectura se puede dividir o desacoplar en varias capas y debería poder agregar o eliminar una capa en cualquier momento
+5. Tener una interfaz uniforme (uniform interface)
+*El sistema debe ofrecer un sistema de comunicación uniforme para acceder a los recursos,ej debe haber direcciones URL únicas para cada recurso
+6. Código a pedido (optional code on demand) esto es opcional 

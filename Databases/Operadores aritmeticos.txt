@@ -1,0 +1,23 @@
+Operadores aritméticos
+-Son útiles cuando desea realizar operaciones matemáticas con los datos de las tablas, utilizando SELECT    
+-También se puede utilizar con  WHERE
+
+-suma +
+-sustracción -
+-multiplicación *
+-división /
+-módulo %
+
+Ejemplos
+SUMA 
+SELECT columna1 + columna2 FROM nombreTabla
+WHERE
+SELECT columna1 + columna2 FROM nombreTabla WHERE condición
+SELECT * 
+
+FROM employee 
+
+WHERE salary + allowance = 25000; 
+
+Y así sucesivamente con los demas operadores
+
